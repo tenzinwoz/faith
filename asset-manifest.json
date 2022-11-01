@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tenzinwoz/faith/static/css/main.2e77f2d5.css",
-    "main.js": "/tenzinwoz/faith/static/js/main.69a1a9de.js",
-    "static/js/787.28cb0dcd.chunk.js": "/tenzinwoz/faith/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/tenzinwoz/faith/index.html",
-    "main.2e77f2d5.css.map": "/tenzinwoz/faith/static/css/main.2e77f2d5.css.map",
-    "main.69a1a9de.js.map": "/tenzinwoz/faith/static/js/main.69a1a9de.js.map",
-    "787.28cb0dcd.chunk.js.map": "/tenzinwoz/faith/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/faith/static/css/main.2e77f2d5.css",
+    "main.js": "/faith/static/js/main.8e7cf72d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/faith/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/faith/index.html",
+    "main.2e77f2d5.css.map": "/faith/static/css/main.2e77f2d5.css.map",
+    "main.8e7cf72d.js.map": "/faith/static/js/main.8e7cf72d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/faith/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e77f2d5.css",
-    "static/js/main.69a1a9de.js"
+    "static/js/main.8e7cf72d.js"
   ]
 }
