@@ -1,0 +1,14 @@
+.wide-card {
+  padding: 30px;
+  max-width: 830px;
+  margin: 0 auto;
+  .image-holder {
+    max-width: 200px;
+    img {
+      width: 100%;
+    }
+  }
+  a {
+    color: $primaryColor;
+  }
+}

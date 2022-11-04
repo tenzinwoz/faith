@@ -1,0 +1,22 @@
+.hero {
+  height: 70vh;
+  .image-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .content-box {
+    background-color: #ffffff;
+    padding: 25px;
+    position: absolute;
+    right: -18%;
+    top: 30%;
+    padding: 25px;
+    max-width: 400px;
+    width: 100%;
+    h1 {
+      max-width: 386px;
+      font-size: 35px;
+      font-weight: 600;
+    }
+  }
+}

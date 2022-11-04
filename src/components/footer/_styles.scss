@@ -1,0 +1,28 @@
+.main-footer {
+  background-color: #000000;
+  padding: 30px 0px;
+  p,
+  h2,
+  a {
+    color: #ffffff;
+    display: block;
+  }
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .address-box {
+    p {
+      max-width: 300px;
+    }
+  }
+  .info {
+    p,
+    a {
+      margin-bottom: 15px;
+    }
+  }
+  .social-links {
+    margin: 0px 10px;
+  }
+}
