@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/faith/static/css/main.2e77f2d5.css",
-    "main.js": "/faith/static/js/main.8e7cf72d.js",
-    "static/js/787.28cb0dcd.chunk.js": "/faith/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/faith/index.html",
-    "main.2e77f2d5.css.map": "/faith/static/css/main.2e77f2d5.css.map",
-    "main.8e7cf72d.js.map": "/faith/static/js/main.8e7cf72d.js.map",
-    "787.28cb0dcd.chunk.js.map": "/faith/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.db92a2a0.css",
+    "main.js": "/static/js/main.91b84d0b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/dashboard-hero.png": "/static/media/dashboard-hero.5e83129fc878b10f86f5.png",
+    "static/media/contact-hero.png": "/static/media/contact-hero.4b82cc80b42b532da603.png",
+    "static/media/news-hero.png": "/static/media/news-hero.7d86094eb2e2977bdc37.png",
+    "static/media/home-hero.png": "/static/media/home-hero.a15f9803d2a87b4983c5.png",
+    "static/media/donate-hero.png": "/static/media/donate-hero.b886b12049d36faa506f.png",
+    "static/media/about-hero.png": "/static/media/about-hero.2bc5a345745793191f1e.png",
+    "static/media/events-hero.png": "/static/media/events-hero.ed6fe6501ea49c0b80cc.png",
+    "index.html": "/index.html",
+    "main.db92a2a0.css.map": "/static/css/main.db92a2a0.css.map",
+    "main.91b84d0b.js.map": "/static/js/main.91b84d0b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e77f2d5.css",
-    "static/js/main.8e7cf72d.js"
+    "static/css/main.db92a2a0.css",
+    "static/js/main.91b84d0b.js"
   ]
 }
