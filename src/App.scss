@@ -1,8 +1,7 @@
 @import "./styles/index";
 
 @import "./components/index";
-@import "./components/header/styles.scss";
-@import "./components/footer/styles.scss";
+@import "./containers/index";
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -24,10 +23,4 @@ h2 {
 }
 a {
   text-decoration: none;
-}
-.section-pad {
-  padding: 70px 0px;
-}
-.grey-background {
-  background-color: $lightGrey;
 }

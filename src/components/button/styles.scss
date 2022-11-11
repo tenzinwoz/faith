@@ -4,16 +4,20 @@
   font-size: 16px;
   border-radius: 0px;
   padding: 6px 20px;
-  :hover {
-    border-radius: 7px;
+  &:hover {
+    border-radius: 0px;
     border: 1px solid #000;
     font-size: 16px;
-    background-color: #000000;
-    color: #ffffff;
   }
 }
 .secondary-button {
   border-radius: 0px;
   border: 1px solid #000;
   font-size: 16px;
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 0px;
+  }
 }

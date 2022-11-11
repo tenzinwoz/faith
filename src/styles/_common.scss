@@ -1,0 +1,58 @@
+.section-pad {
+  padding: 70px 0px;
+}
+.grey-background {
+  background-color: $lightGrey;
+}
+
+.card-shadow {
+  transition: box-shadow 0.3s;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  &:hover {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  }
+}
+
+.green-border-btm {
+  border-bottom: 4px solid $primaryColor;
+}
+.blue-border-btm {
+  border-bottom: 4px solid $secondaryColor;
+}
+.green-border {
+  border: 4px solid $primaryColor;
+}
+.blue-border {
+  border: 4px solid $secondaryColor;
+}
+.para-width {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.btn-hover {
+  color: $primaryColor;
+  display: inline-block;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $primaryColor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    color: $primaryColor;
+  }
+  &:hover {
+    color: $primaryColor !important;
+  }
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: $primaryColor !important;
+  }
+}

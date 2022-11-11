@@ -1,0 +1,13 @@
+.custom-card {
+  max-width: 320px;
+
+  .img-holder {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .card-body {
+    padding: 20px;
+  }
+}
