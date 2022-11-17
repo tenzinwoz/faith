@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/faith/static/css/main.e5ed5d3a.css",
-    "main.js": "/faith/static/js/main.e7d093f4.js",
+    "main.css": "/faith/static/css/main.24d098ce.css",
+    "main.js": "/faith/static/js/main.8357e8c6.js",
     "static/js/787.28cb0dcd.chunk.js": "/faith/static/js/787.28cb0dcd.chunk.js",
     "static/media/dashboard-hero.png": "/faith/static/media/dashboard-hero.5e83129fc878b10f86f5.png",
     "static/media/contact-hero.png": "/faith/static/media/contact-hero.4b82cc80b42b532da603.png",
@@ -11,18 +11,21 @@
     "static/media/about-hero.png": "/faith/static/media/about-hero.2bc5a345745793191f1e.png",
     "static/media/events-hero.png": "/faith/static/media/events-hero.ed6fe6501ea49c0b80cc.png",
     "static/media/event2.png": "/faith/static/media/event2.ec7679f0db9f2b316e73.png",
+    "static/media/volunteer.png": "/faith/static/media/volunteer.d1a8e647fbd343a9fa83.png",
+    "static/media/meal-donate.png": "/faith/static/media/meal-donate.2dfecca31b1d3e36580f.png",
+    "static/media/money-donate.png": "/faith/static/media/money-donate.86095aa0a834371f8704.png",
     "static/media/event1.png": "/faith/static/media/event1.fb6f5a5f8a3e68833265.png",
     "static/media/team3.png": "/faith/static/media/team3.1fa859e1ba6727937abc.png",
     "static/media/team1.png": "/faith/static/media/team1.e46ddff5f68508a42ef2.png",
     "static/media/team2.png": "/faith/static/media/team2.138f446b0bcb488fe022.png",
     "static/media/team4.png": "/faith/static/media/team4.558612542c7a4ad60905.png",
     "index.html": "/faith/index.html",
-    "main.e5ed5d3a.css.map": "/faith/static/css/main.e5ed5d3a.css.map",
-    "main.e7d093f4.js.map": "/faith/static/js/main.e7d093f4.js.map",
+    "main.24d098ce.css.map": "/faith/static/css/main.24d098ce.css.map",
+    "main.8357e8c6.js.map": "/faith/static/js/main.8357e8c6.js.map",
     "787.28cb0dcd.chunk.js.map": "/faith/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5ed5d3a.css",
-    "static/js/main.e7d093f4.js"
+    "static/css/main.24d098ce.css",
+    "static/js/main.8357e8c6.js"
   ]
 }
