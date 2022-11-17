@@ -19,7 +19,10 @@ export const newsList = [
       "She became homeless in her 60s. Here's why her story's becoming all-too common in Toronto",
     description:
       "About four years ago, she found herself in her mid-60s living out of her car after having worked since the age of 15. ",
+    content:
+      "<h2>Hello</h2><p>About four years ago, she found herself in her mid-60s living out of her car after having worked since the age of 15.</p> <h2>Hello</h2><p>About four years ago, she found herself in her mid-60s living out of her car after having worked since the age of 15.</p> <h2>Hello</h2><p>About four years ago, she found herself in her mid-60s living out of her car after having worked since the age of 15.</p> ",
     img: Event1,
+    route: "homeless-in-her-60s/",
   },
   {
     title:
@@ -64,6 +67,8 @@ export const eventsList = [
     description:
       "With your help, we can give homeless men in the Greater Lehigh Valley a delicious Thanksgiving ...",
     img: Event1,
+    content: "<h2>Hello heading</h2><p>Awesome. keep going</p>",
+    route: "thanks-for-giving-2022",
   },
   {
     title: "Project winter survival 2022",

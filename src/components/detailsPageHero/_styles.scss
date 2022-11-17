@@ -1,0 +1,26 @@
+.single-page-hero {
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .grey-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .container {
+    z-index: 1;
+    .content-box {
+      max-width: 800px;
+      margin: 0 auto;
+      h1 {
+        color: #fff;
+        line-height: 48px;
+      }
+    }
+  }
+}

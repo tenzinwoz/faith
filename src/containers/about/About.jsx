@@ -28,8 +28,8 @@ export default function About() {
           </p>
         </div>
       </section>
-      <section className="section-pad grey-background">
-        <div className="container">
+      <section className="section-pad grey-background ">
+        <div className="container mb-5">
           <h1 className="text-center mb-5">Team</h1>
 
           <div className="row">

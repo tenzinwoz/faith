@@ -7,14 +7,19 @@ export default function WideCard({ data }) {
     <div className="card-shadow wide-card mb-3">
       <div className="row">
         <div className="col-lg-4">
-          <div className="image-holder">
-            <img src={data?.img} alt="faith blog images" />
-          </div>
+          <div
+            className="image-holder"
+            style={{ backgroundImage: `url(${data?.img})` }}
+          ></div>
         </div>
         <div className="col-lg-8">
           <h2 className="mb-2">{data?.title}</h2>
           <p className="mb-3">{data?.description}</p>
-          <Link to="#" className="btn-hover">
+          <Link
+            to={`/events/${data?.route}`}
+            state={{ data }}
+            className="btn-hover"
+          >
             Read more
           </Link>
         </div>
