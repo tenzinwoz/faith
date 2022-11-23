@@ -18,13 +18,13 @@ export default function SinglePageData({ content }) {
             </h2>
           </div>
           <div className="col-lg-5 d-flex justify-content-center align-items-center">
-            <Button type="secondary">Register</Button>
+            <Button variant="secondary">Register</Button>
           </div>
         </div>
       </div>
       <div dangerouslySetInnerHTML={{ __html: content }}></div>
       <div className="d-flex justify-content-center align-items-center">
-        <Button type="secondary">Register</Button>
+        <Button variant="secondary">Register</Button>
       </div>
     </div>
   );

@@ -3,3 +3,37 @@
     margin: 0 auto;
   }
 }
+
+.testimonial {
+  #carouselExampleIndicators {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    .box {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-image: none;
+    }
+    .carousel-control-next-icon:after {
+      content: ">";
+      font-size: 40px;
+      color: #000;
+    }
+
+    .carousel-control-prev-icon:after {
+      content: "<";
+      font-size: 40px;
+      color: #000;
+    }
+    .carousel-indicators {
+      bottom: -40%;
+      button {
+        background-color: #000;
+      }
+    }
+  }
+}

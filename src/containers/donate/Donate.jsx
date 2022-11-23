@@ -25,7 +25,7 @@ export default function Donate() {
                     $10 can help someone get their fisrt healthy meal of the
                     week.
                   </p>
-                  <Button type="secondary">Donate</Button>
+                  <Button variant="secondary">Donate</Button>
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ export default function Donate() {
                     Over 300 volunteers are needed for each event. Learn about
                     how you can be part of an event.
                   </p>
-                  <Button type="secondary">Volunteer</Button>
+                  <Button variant="secondary">Volunteer</Button>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function Donate() {
                     Your conntribution matters and every cent of it will go
                     towards helping those in need.
                   </p>
-                  <Button type="secondary">Donate</Button>
+                  <Button variant="secondary">Donate</Button>
                 </div>
               </div>
             </div>

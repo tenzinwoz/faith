@@ -10,6 +10,8 @@ import Donate from "./containers/donate/Donate";
 import Contact from "./containers/contact/Contact";
 import SinglePageNews from "./containers/singlePageNews/SinglePageNews";
 import SinglePageEvent from "./containers/singlePageEvents/SinglePageEvent";
+import "../node_modules/jquery/dist/jquery.min.js";
+import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
   return (

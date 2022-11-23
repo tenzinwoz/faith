@@ -1,11 +1,19 @@
 import React from "react";
 
-export default function Button({ type, children, stylesClass }) {
+export default function Button({
+  variant,
+  children,
+  stylesClass,
+  onClick,
+  props,
+}) {
   return (
     <button
       className={`btn ${
-        type === "primary" ? "primary-button" : "secondary-button"
+        variant === "primary" ? "primary-button" : "secondary-button"
       } ${stylesClass}`}
+      onClick={onClick}
+      {...props}
     >
       {children}
     </button>
