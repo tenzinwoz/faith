@@ -23,7 +23,7 @@ export default function Home() {
       </Hero>
       <section className="section-pad">
         <div className="container">
-          <h1 className="text-center mb-5">What we do</h1>
+          <h1 className="text-center mb-3">What we do</h1>
           <p className="text-center para-width">
             We are the national charity for homeless people. We know that
             homelessness is not inevitable. We know that together we can end it.
@@ -50,7 +50,7 @@ export default function Home() {
           <div className="row">
             {eventsList?.slice(0, 3)?.map((event, index) => {
               return (
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-6 ">
                   <Card data={event} index={index} />
                 </div>
               );

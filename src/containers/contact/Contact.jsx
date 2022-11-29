@@ -24,9 +24,9 @@ export default function Contact() {
       <section className="section-pad contact-page">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 ">
               <h1 className="mb-4">We’d love to hear from you.</h1>
-              <p>
+              <p className="mb-5">
                 Please fill the form for any kind of enquiry and one of our team
                 member will get back to you as soon as possible.
               </p>

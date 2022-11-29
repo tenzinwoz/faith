@@ -80,22 +80,22 @@ export default function Dashboard() {
         <div className="container">
           <h1 className="text-center mb-5">Our impact</h1>
           <div className="row">
-            <div className="col-lg-3 text-center">
+            <div className="col-lg-3 col-md-6 mb-4 text-center">
               <GiForkKnifeSpoon className="green-color text-center mb-3" />
               <h1 className="mb-1">12890</h1>
               <p>Meals Served this year</p>
             </div>
-            <div className="col-lg-3 text-center">
+            <div className="col-lg-3 col-md-6 mb-4 text-center">
               <SlCalender className="green-color text-center mb-3" />
               <h1 className="mb-1">46</h1>
               <p>Events held this year</p>
             </div>
-            <div className="col-lg-3 text-center">
+            <div className="col-lg-3 col-md-6 mb-4 text-center">
               <AiOutlineHome className="green-color text-center mb-3" />
               <h1 className="mb-1">107</h1>
               <p>New home provieded this year</p>
             </div>
-            <div className="col-lg-3 text-center">
+            <div className="col-lg-3 col-md-6 mb-4 text-center">
               <BsPeople className="green-color text-center mb-3" />
               <h1 className="mb-1">315</h1>
               <p>New volunteer registered</p>

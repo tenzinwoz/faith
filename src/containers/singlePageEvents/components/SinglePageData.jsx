@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import Button from "../../../components/button/Button";
+import { useNavigate } from "react-router-dom";
 
 export default function SinglePageData({ content }) {
+  let navigate = useNavigate();
   return (
     <div className="container singlepage-data section-pad">
       <div className="event-info mb-5">
@@ -18,13 +20,17 @@ export default function SinglePageData({ content }) {
             </h2>
           </div>
           <div className="col-lg-5 d-flex justify-content-center align-items-center">
-            <Button variant="secondary">Register</Button>
+            <Button variant="secondary" onClick={() => navigate("/contact")}>
+              Register
+            </Button>
           </div>
         </div>
       </div>
       <div dangerouslySetInnerHTML={{ __html: content }}></div>
       <div className="d-flex justify-content-center align-items-center">
-        <Button variant="secondary">Register</Button>
+        <Button variant="secondary" onClick={() => navigate("/contact")}>
+          Register
+        </Button>
       </div>
     </div>
   );

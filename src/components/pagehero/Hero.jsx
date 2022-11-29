@@ -6,13 +6,13 @@ export default function Hero({ children, color, imageUrl }) {
       <div className="container-fluid h-100">
         <div className="row h-100">
           <div
-            className="col-lg-6 position-relative"
+            className="col-lg-6 col-md-6  position-relative"
             style={{ backgroundColor: color }}
           >
             <div className="content-box shadow">{children}</div>
           </div>
           <div
-            className="col-lg-6 image-box"
+            className="col-lg-6 col-md-6 image-box"
             style={{ backgroundImage: `url("${imageUrl}")` }}
           ></div>
         </div>

@@ -1,0 +1,29 @@
+//Tablet Devices
+@media (max-width: 768px) {
+  .hero {
+    height: 40vh;
+  }
+  .header {
+    .menu-content {
+      .menu-list {
+        a {
+          padding: 10px;
+        }
+      }
+    }
+  }
+  .main-footer {
+    .address-box,
+    .info {
+      margin-bottom: 20px;
+    }
+  }
+  .custom-card {
+    margin-bottom: 20px !important;
+  }
+  .team {
+    .team-col {
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -28,14 +28,14 @@ export default function About() {
           </p>
         </div>
       </section>
-      <section className="section-pad grey-background ">
+      <section className="section-pad grey-background  team">
         <div className="container mb-5">
           <h1 className="text-center mb-5">Team</h1>
 
           <div className="row">
             {teamList?.map((member, index) => {
               return (
-                <div className="col-lg-3" key={index}>
+                <div className="col-lg-3 col-md-6 team-col" key={index}>
                   <TeamCard index={index} data={member} />
                 </div>
               );

@@ -16,7 +16,7 @@ export default function News() {
           <div className="row">
             {newsList?.map((event, index) => {
               return (
-                <div className="col-lg-4 mb-5">
+                <div className="col-lg-4 col-md-6 mb-5">
                   <Card data={event} index={index} />
                 </div>
               );

@@ -2,8 +2,10 @@ import React from "react";
 import Hero from "../../components/pagehero/Hero";
 import DonateImage from "../../assets/images/donate-hero.png";
 import Button from "../../components/button/Button";
+import { useNavigate } from "react-router-dom";
 
 export default function Donate() {
+  let navigate = useNavigate();
   return (
     <>
       <Hero color="#67beb0" imageUrl={DonateImage}>
@@ -16,7 +18,7 @@ export default function Donate() {
         <div className="container">
           <h1 className="text-center mb-5">Contribute</h1>
           <div className="row">
-            <div className="col-lg-4 mb-5">
+            <div className="col-lg-4 col-md-6 mb-5">
               <div className="green-border-btm custom-card card-shadow meal  h-100">
                 <div className="img-holder"></div>
                 <div className="card-body">
@@ -25,11 +27,16 @@ export default function Donate() {
                     $10 can help someone get their fisrt healthy meal of the
                     week.
                   </p>
-                  <Button variant="secondary">Donate</Button>
+                  <Button
+                    variant="secondary"
+                    onClick={() => navigate("/contact")}
+                  >
+                    Donate
+                  </Button>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 mb-5">
+            <div className="col-lg-4 col-md-6 mb-5">
               <div className="blue-border-btm custom-card card-shadow volunteer  h-100">
                 <div className="img-holder"></div>
                 <div className="card-body">
@@ -38,11 +45,16 @@ export default function Donate() {
                     Over 300 volunteers are needed for each event. Learn about
                     how you can be part of an event.
                   </p>
-                  <Button variant="secondary">Volunteer</Button>
+                  <Button
+                    variant="secondary"
+                    onClick={() => navigate("/contact")}
+                  >
+                    Volunteer
+                  </Button>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 mb-5">
+            <div className="col-lg-4 col-md-6 mb-5">
               <div className="green-border-btm custom-card card-shadow money h-100">
                 <div className="img-holder"></div>
                 <div className="card-body">
@@ -51,7 +63,12 @@ export default function Donate() {
                     Your conntribution matters and every cent of it will go
                     towards helping those in need.
                   </p>
-                  <Button variant="secondary">Donate</Button>
+                  <Button
+                    variant="secondary"
+                    onClick={() => navigate("/contact")}
+                  >
+                    Donate
+                  </Button>
                 </div>
               </div>
             </div>

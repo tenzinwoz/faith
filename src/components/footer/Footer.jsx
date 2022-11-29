@@ -8,18 +8,18 @@ export default function Footer() {
     <footer className="main-footer ">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 address-box">
+          <div className="col-lg-6 col-md-6  address-box">
             <div className="logo-holder mb-4">
               <img src={Logo} alt="Company logo" />
             </div>
             <p> 513 St Clair Ave W, Toronto, Ontario, Canada. M6C 1A1</p>
           </div>
-          <div className="col-lg-2 info">
+          <div className="col-lg-2 col-md-6 info">
             <h2>Help & Support</h2>
             <a href="mailto:faith@gmail.com">faith@gmail.com</a>
             <Link to="/contact">Contact</Link>
           </div>
-          <div className="col-lg-2 info">
+          <div className="col-lg-2  col-md-6 info">
             <h2>Quick links</h2>
             <Link to="/contact">Contact</Link>
             <Link to="/dashboard">Dashboard</Link>
@@ -27,7 +27,7 @@ export default function Footer() {
             <Link to="/blogs">Blogs</Link>
             <Link to="/events">Events</Link>
           </div>
-          <div className="col-lg-2 info">
+          <div className="col-lg-2 col-md-6 info">
             <h2>Company</h2>
             <Link to="/about">Events</Link>
             <Link to="/events">Events</Link>
