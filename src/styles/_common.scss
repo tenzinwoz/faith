@@ -1,3 +1,25 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+p {
+  font-size: $bodyFont;
+}
+h1 {
+  font-size: $headingFont;
+}
+h2 {
+  font-size: $subHeadingFont;
+}
+a {
+  text-decoration: none;
+}
+
 .section-pad {
   padding: 70px 0px;
 }

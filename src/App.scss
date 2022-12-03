@@ -2,25 +2,3 @@
 @import "./components/index";
 @import "./containers/index";
 @import "./styles/mobile";
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-h1,
-h2,
-h3,
-p {
-  margin: 0px;
-}
-p {
-  font-size: $bodyFont;
-}
-h1 {
-  font-size: $headingFont;
-}
-h2 {
-  font-size: $subHeadingFont;
-}
-a {
-  text-decoration: none;
-}
