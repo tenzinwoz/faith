@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/faith/static/css/main.651b7418.css",
-    "main.js": "/faith/static/js/main.3adb0808.js",
+    "main.css": "/faith/static/css/main.48c03965.css",
+    "main.js": "/faith/static/js/main.47c2be77.js",
     "static/js/787.28cb0dcd.chunk.js": "/faith/static/js/787.28cb0dcd.chunk.js",
+    "static/media/404_image.gif": "/faith/static/media/404_image.58fe13e46e9d34d6fada.gif",
     "static/media/dashboard-hero.png": "/faith/static/media/dashboard-hero.5e83129fc878b10f86f5.png",
     "static/media/contact-hero.png": "/faith/static/media/contact-hero.4b82cc80b42b532da603.png",
     "static/media/news-hero.png": "/faith/static/media/news-hero.7d86094eb2e2977bdc37.png",
@@ -20,12 +21,12 @@
     "static/media/team2.png": "/faith/static/media/team2.138f446b0bcb488fe022.png",
     "static/media/team4.png": "/faith/static/media/team4.558612542c7a4ad60905.png",
     "index.html": "/faith/index.html",
-    "main.651b7418.css.map": "/faith/static/css/main.651b7418.css.map",
-    "main.3adb0808.js.map": "/faith/static/js/main.3adb0808.js.map",
+    "main.48c03965.css.map": "/faith/static/css/main.48c03965.css.map",
+    "main.47c2be77.js.map": "/faith/static/js/main.47c2be77.js.map",
     "787.28cb0dcd.chunk.js.map": "/faith/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.651b7418.css",
-    "static/js/main.3adb0808.js"
+    "static/css/main.48c03965.css",
+    "static/js/main.47c2be77.js"
   ]
 }
