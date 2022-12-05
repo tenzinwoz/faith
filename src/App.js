@@ -12,6 +12,7 @@ import SinglePageNews from "./containers/singlePageNews/SinglePageNews";
 import SinglePageEvent from "./containers/singlePageEvents/SinglePageEvent";
 import "../node_modules/jquery/dist/jquery.min.js";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+import NotFound from "./containers/404/NotFound";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/events/:id" element={<SinglePageEvent />} />
           <Route exact path="/donate" element={<Donate />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </MainLayout>
     </Router>
