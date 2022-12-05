@@ -15,7 +15,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/faith">
       <MainLayout>
         <Routes>
           <Route exact path="/" element={<Home />} />
