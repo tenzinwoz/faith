@@ -8,8 +8,8 @@ import Event2 from "../assets/images/event2.png";
 
 export const teamList = [
   { name: "Jacob", position: "CEO", img: Team1 },
-  { name: "Elizibath ", position: "Co-founder", img: Team2 },
-  { name: "Tiffiny", position: "Event manager", img: Team3 },
+  { name: "Elizabeth ", position: "Co-founder", img: Team2 },
+  { name: "Tiffany", position: "Event manager", img: Team3 },
   { name: "Husan", position: "Brand Manager", img: Team4 },
 ];
 
