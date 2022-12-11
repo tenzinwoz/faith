@@ -19,11 +19,7 @@ export default function Card({ data, index }) {
       <div className="card-body">
         <h2 className="mb-2">{data?.title}</h2>
         <p className="mb-3">{data?.description}</p>
-        <Link
-          to={`/news/${data?.route}`}
-          state={{ data }}
-          className="btn-hover"
-        >
+        <Link to={`/${data?.route}`} state={{ data }} className="btn-hover">
           Read more
         </Link>
       </div>

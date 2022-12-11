@@ -24,13 +24,12 @@ export default function Footer() {
             <Link to="/contact">Contact</Link>
             <Link to="/dashboard">Dashboard</Link>
             <Link to="/news">News</Link>
-            <Link to="/blogs">Blogs</Link>
             <Link to="/events">Events</Link>
           </div>
           <div className="col-lg-2 col-md-6 info">
             <h2>Company</h2>
-            <Link to="/about">Events</Link>
-            <Link to="/events">Events</Link>
+            <Link to="/about">About</Link>
+            <Link to="/dashboard">Dashboard</Link>
           </div>
         </div>
         <div className="d-flex justify-content-between lower-footer">

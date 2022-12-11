@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Button from "../../../components/button/Button";
 import { useNavigate } from "react-router-dom";
 
-export default function SinglePageData({ content }) {
+export default function SinglePageData({ data }) {
   let navigate = useNavigate();
   return (
     <div className="container singlepage-data section-pad">
@@ -10,13 +10,13 @@ export default function SinglePageData({ content }) {
         <div className="row">
           <div className="col-lg-7">
             <h2>
-              Event date : <span> 5th jan 2022</span>
+              Event date : <span> {data?.date}</span>
             </h2>
             <h2>
-              Event location : <span> 5th jan 2022</span>
+              Event location : <span> {data?.location}</span>
             </h2>
             <h2>
-              Event time : <span> 5th jan 2022</span>
+              Event time : <span> {data?.time}</span>
             </h2>
           </div>
           <div className="col-lg-5 d-flex justify-content-center align-items-center">
@@ -26,7 +26,7 @@ export default function SinglePageData({ content }) {
           </div>
         </div>
       </div>
-      <div dangerouslySetInnerHTML={{ __html: content }}></div>
+      <div dangerouslySetInnerHTML={{ __html: data?.content }}></div>
       <div className="d-flex justify-content-center align-items-center">
         <Button variant="secondary" onClick={() => navigate("/contact")}>
           Register

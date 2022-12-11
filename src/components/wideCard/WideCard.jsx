@@ -15,11 +15,7 @@ export default function WideCard({ data }) {
         <div className="col-lg-8 col-md-9">
           <h2 className="mb-2">{data?.title}</h2>
           <p className="mb-3">{data?.description}</p>
-          <Link
-            to={`/events/${data?.route}`}
-            state={{ data }}
-            className="btn-hover"
-          >
+          <Link to={`/${data?.route}`} state={{ data }} className="btn-hover">
             Read more
           </Link>
         </div>

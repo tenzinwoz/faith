@@ -11,13 +11,15 @@ export default function SinglePageEvent() {
     setData(location?.state?.data);
   }, [location?.state?.data]);
 
+  console.log({ data });
+
   return (
     <>
       {!!data ? (
         <>
           <DetailsPageHero children={data?.title} imageUrl={data?.img} />
 
-          <SinglePageData content={data?.content} />
+          <SinglePageData data={data} />
         </>
       ) : (
         "Loading"
