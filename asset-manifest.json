@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/faith/static/css/main.fcc8fa49.css",
-    "main.js": "/faith/static/js/main.66869968.js",
+    "main.css": "/faith/static/css/main.b5795dc1.css",
+    "main.js": "/faith/static/js/main.6ae8ba5a.js",
     "static/js/787.28cb0dcd.chunk.js": "/faith/static/js/787.28cb0dcd.chunk.js",
+    "static/media/event1.png": "/faith/static/media/event1.ae2c9617be14f8095c59.png",
+    "static/media/news3.png": "/faith/static/media/news3.a3e18f54a01d48c968db.png",
+    "static/media/event2.png": "/faith/static/media/event2.0b8c39e96be848143c72.png",
     "static/media/404_image.gif": "/faith/static/media/404_image.58fe13e46e9d34d6fada.gif",
+    "static/media/news2.jpeg": "/faith/static/media/news2.cfbb1aef9860c80c078e.jpeg",
+    "static/media/news4.png": "/faith/static/media/news4.8608dd5407180f0717eb.png",
     "static/media/dashboard-hero.png": "/faith/static/media/dashboard-hero.5e83129fc878b10f86f5.png",
     "static/media/contact-hero.png": "/faith/static/media/contact-hero.4b82cc80b42b532da603.png",
     "static/media/news-hero.png": "/faith/static/media/news-hero.7d86094eb2e2977bdc37.png",
@@ -11,22 +16,21 @@
     "static/media/donate-hero.png": "/faith/static/media/donate-hero.b886b12049d36faa506f.png",
     "static/media/about-hero.png": "/faith/static/media/about-hero.2bc5a345745793191f1e.png",
     "static/media/events-hero.png": "/faith/static/media/events-hero.ed6fe6501ea49c0b80cc.png",
-    "static/media/event2.png": "/faith/static/media/event2.ec7679f0db9f2b316e73.png",
+    "static/media/news1.jpeg": "/faith/static/media/news1.09a153a67956300c9778.jpeg",
     "static/media/volunteer.png": "/faith/static/media/volunteer.d1a8e647fbd343a9fa83.png",
     "static/media/meal-donate.png": "/faith/static/media/meal-donate.2dfecca31b1d3e36580f.png",
     "static/media/money-donate.png": "/faith/static/media/money-donate.86095aa0a834371f8704.png",
-    "static/media/event1.png": "/faith/static/media/event1.fb6f5a5f8a3e68833265.png",
     "static/media/team3.png": "/faith/static/media/team3.1fa859e1ba6727937abc.png",
     "static/media/team1.png": "/faith/static/media/team1.e46ddff5f68508a42ef2.png",
     "static/media/team2.png": "/faith/static/media/team2.138f446b0bcb488fe022.png",
     "static/media/team4.png": "/faith/static/media/team4.558612542c7a4ad60905.png",
     "index.html": "/faith/index.html",
-    "main.fcc8fa49.css.map": "/faith/static/css/main.fcc8fa49.css.map",
-    "main.66869968.js.map": "/faith/static/js/main.66869968.js.map",
+    "main.b5795dc1.css.map": "/faith/static/css/main.b5795dc1.css.map",
+    "main.6ae8ba5a.js.map": "/faith/static/js/main.6ae8ba5a.js.map",
     "787.28cb0dcd.chunk.js.map": "/faith/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcc8fa49.css",
-    "static/js/main.66869968.js"
+    "static/css/main.b5795dc1.css",
+    "static/js/main.6ae8ba5a.js"
   ]
 }
