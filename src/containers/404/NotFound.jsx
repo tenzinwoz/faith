@@ -16,7 +16,7 @@ export default function NotFound() {
         <h2 className="mb-3">Page Not Found.</h2>
         <h1 className="mb-3">It's just a bad page request, not a bad life.</h1>
         <Button variant="primary" onClick={() => navigate("/")}>
-          Go Back!
+          Go Back Home
         </Button>
       </div>
     </section>

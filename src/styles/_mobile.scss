@@ -3,6 +3,9 @@
   .hero {
     height: 40vh;
   }
+  .single-page-hero {
+    height: 40vh;
+  }
   .header {
     .menu-content {
       .menu-list {
@@ -52,7 +55,7 @@
           position: absolute;
           height: 100vh;
           right: 0;
-          z-index: 1;
+          z-index: 2;
           top: 0;
           background-color: $primaryColor;
           width: 40%;
@@ -87,6 +90,25 @@
       h1 {
         font-size: 25px;
       }
+    }
+  }
+  .single-page-hero {
+    height: 35vh;
+    .container {
+      .content-box {
+        h1 {
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .wide-card {
+    .image-holder {
+      min-height: 150px;
+    }
+    h2 {
+      margin-top: 20px;
     }
   }
 }

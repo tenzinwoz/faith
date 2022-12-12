@@ -35,7 +35,7 @@ export default function About() {
           <div className="row">
             {teamList?.map((member, index) => {
               return (
-                <div className="col-lg-3 col-md-6 team-col" key={index}>
+                <div className="col-lg-3 col-md-6 col-6 team-col" key={index}>
                   <TeamCard index={index} data={member} />
                 </div>
               );
