@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/faith/static/css/main.b5795dc1.css",
-    "main.js": "/faith/static/js/main.6ae8ba5a.js",
+    "main.css": "/faith/static/css/main.5bde7017.css",
+    "main.js": "/faith/static/js/main.39f36da3.js",
     "static/js/787.28cb0dcd.chunk.js": "/faith/static/js/787.28cb0dcd.chunk.js",
     "static/media/event1.png": "/faith/static/media/event1.ae2c9617be14f8095c59.png",
     "static/media/news3.png": "/faith/static/media/news3.a3e18f54a01d48c968db.png",
@@ -25,12 +25,12 @@
     "static/media/team2.png": "/faith/static/media/team2.138f446b0bcb488fe022.png",
     "static/media/team4.png": "/faith/static/media/team4.558612542c7a4ad60905.png",
     "index.html": "/faith/index.html",
-    "main.b5795dc1.css.map": "/faith/static/css/main.b5795dc1.css.map",
-    "main.6ae8ba5a.js.map": "/faith/static/js/main.6ae8ba5a.js.map",
+    "main.5bde7017.css.map": "/faith/static/css/main.5bde7017.css.map",
+    "main.39f36da3.js.map": "/faith/static/js/main.39f36da3.js.map",
     "787.28cb0dcd.chunk.js.map": "/faith/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5795dc1.css",
-    "static/js/main.6ae8ba5a.js"
+    "static/css/main.5bde7017.css",
+    "static/js/main.39f36da3.js"
   ]
 }
